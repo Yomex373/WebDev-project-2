@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WebDev Week 2 Project</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <img src="images/logo.png" alt="Company Logo" class="logo" />
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Project <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Other Page <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+          </ul>
+
+        </nav>
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+        </li>
+        <li>
+          <a href="#">Project <i class="fa-solid fa-caret-down"></i></a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Other Page <i class="fa-solid fa-caret-down"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container grid">
+        <img class="hero-img" src="images/hero-image.png" alt="HERO IMAGE" />
+        <div class="hero-content">
+          <span>Hello I'm Agetha</span>
+          <h1>Visual Designer</h1>
+          <p class="para-type1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed autem
+            rerum voluptate dolor? Voluptatibus laudantium quasi unde sunt quia
+            repellendus, deserunt.
+          </p>
+          <a href="#" class="btn1">About me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-two">
+      <div class="container">
+        <div class="flex flex-rol3">
+          <div class="flex-rol3-item">
+            <img src="images/writing.png" alt="stationery picture" />
+            <h1>UI Design</h1>
+            <p class="para-type2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti!
+            </p>
+            <a class="more-info-btn" href="#">Know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="flex-rol3-mid-item">
+            <img src="images/book.png" alt="stationery picture" />
+            <h1>Product Design</h1>
+            <p class="para-type2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti!
+            </p>
+            <a class="more-info-btn" href="#">Know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="flex-rol3-item">
+            <img src="images/stationery.png" alt="stationery picture" />
+            <h1>Branding</h1>
+            <p class="para-type2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti!
+            </p>
+            <a class="more-info-btn" href="#">Know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="grid-col3">
+          <div class="grid-col3-item">
+            <h1 class="xl-text">12 <span>Years Experience</span></h1>
+          </div>
+
+          <div class="grid-col3-item">
+            <h1>60+</h1>
+            <p class="para-type1">Clients</p>
+          </div>
+          <div class="grid-col3-item">
+            <h1>08</h1>
+            <p class="para-type1">Years Experience</p>
+          </div>
+          <div class="grid-col3-item">
+            <h1>122+</h1>
+            <p class="para-type1">Completed Projects</p>
+          </div>
+          <div class="grid-col3-item">
+            <h1>10</h1>
+            <p class="para-type1">Achievement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-three">
+      <div class="container">
+        <div class="flex section-three-item1">
+          <div>
+            <h1>featured projects</h1>
+            <p class="para-type2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="btn1">view all</a>
+          </div>
+        </div>
+
+        <div class="grid-col2">
+          <div>
+            <div class="grid-col2-img">
+              <img src="images/img1.jpg" alt="" />
+            </div>
+            <h2>The Vintage</h2>
+            <a href="#" class="more-info-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div>
+            <div class="grid-col2-img">
+              <img src="images/img2.jpg" alt="" />
+            </div>
+            <h2>Foodasa</h2>
+            <a href="#" class="more-info-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div>
+            <div class="grid-col2-img">
+              <img src="images/img3.jpg" alt="" />
+            </div>
+            <h2>Macro Accent</h2>
+            <a href="#" class="more-info-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div>
+            <div class="grid-col2-img">
+              <img src="images/img4.jpg" alt="" />
+            </div>
+            <h2>Mozaik</h2>
+            <a href="#" class="more-info-btn">know more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-container flex">
+          <div>
+            <h1>Let's work together on your next project</h1>
+            <p class="para-type1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+              possimus perferendis similique magnam iure distinctio.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="btn1">contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-nav">
+      <div class="container">
+        <a href="#">Home</a>
+        <a href="#">Project</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container flex">
+        <img src="images/logo.png" alt="" class="logo"/>
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <p class="para-type1">Created by Yomex</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
